@@ -5,9 +5,9 @@
 ### Overview
 
 - Can be used to throttle outgoing/incoming egress of network adapters. 
-- Intended to be used with various network setups for local throttling and debugging/development purposes. 
+- Intended for use with various network setups for local throttling and debugging/development purposes. 
 
-- For example, you could [set up Internet Connection Sharing](https://support.apple.com/kb/ph25327?locale=en_US) and then throttle the resulting wireless connection. This would enable bandwidth testing of devices connected to your local wireless connection. 
+- For example, you could [set up Internet Connection Sharing](https://support.apple.com/kb/ph25327?locale=en_US) and then throttle the resulting wireless connection. 
 
 Note : wondershaper is included as a git submodule
 [see wondershaper README for more info](https://github.com/magnific0/wondershaper)
@@ -23,7 +23,7 @@ or use
 
 2. <b>throttle egress</b> - outgoing(upload) or incoming(download) or both
 ```
-npm run ./node_modules/throttleneck/shape --KBPS_UP=500 --KBPS_DOWN=500
+npm run ./node_modules/throttleneck/shape --ANAME=en0 --KBPS_UP=500 --KBPS_DOWN=500
 ```
 
 3. <b>create your own shortcut commands, e.g., </b> 

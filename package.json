@@ -4,7 +4,9 @@
   "description": "A wrapper for wondershaper.",
   "main": "index.js",
   "scripts": {
-    "shape": "sudo node index.js",
+    "shape": "sudo node index.js ANAME=en0",
+    "clear": "npm run shape CLEAR=true",
+    "status": "npm run shape STATUS=true",
     "list-adapters": "networksetup -listallhardwareports"
   },
   "keywords": [

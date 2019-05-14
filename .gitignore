@@ -1,2 +1,3 @@
 /.DS_STORE
-util/
+.vscode/
+node_modules/
