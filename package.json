@@ -1,0 +1,21 @@
+{
+  "name": "throttleneck",
+  "version": "0.0.1",
+  "description": "A wrapper for wondershaper.",
+  "main": "index.js",
+  "scripts": {
+    "shape": "sudo node index.js",
+    "list-adapters": "networksetup -listallhardwareports"
+  },
+  "keywords": [
+    "bandwidth",
+    "throttle",
+    "traffic",
+    "shaper"
+  ],
+  "author": "P.E. Banfield",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "shell-exec": "^1.0.2"
+  }
+}
