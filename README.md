@@ -9,7 +9,7 @@
 
 - For example, you could [set up Internet Connection Sharing](https://support.apple.com/kb/ph25327?locale=en_US) and then throttle the resulting wireless connection. This would enable bandwidth testing of devices connected to your local wireless connection. 
 
-wondershaper is included as a git submodule
+Note : wondershaper is included as a git submodule
 [see wondershaper README for more info](https://github.com/magnific0/wondershaper)
 
 ## throttleneck quickstart
