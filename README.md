@@ -15,11 +15,16 @@ Note : wondershaper is included as a git submodule
 ## throttleneck quickstart
 
 1. <b>list available ethernet adapters</b>
-`npm run ./node_modules/throttleneck/list-adapters`
+```
+npm run ./node_modules/throttleneck/list-adapters
+```
 or use 
 `ifconfig`
+
 2. <b>throttle egress</b> - outgoing(upload) or incoming(download) or both
-`npm run ./node_modules/throttleneck/shape --KBPS_UP=500 --KBPS_DOWN=500`
+```
+npm run ./node_modules/throttleneck/shape --KBPS_UP=500 --KBPS_DOWN=500
+```
 
 3. <b>create your own shortcut commands, e.g., </b> 
 ```
